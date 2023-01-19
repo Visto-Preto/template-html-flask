@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Calculadora de dinheiro</title>
+  <title>Template para Aplicativos em Flask</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
@@ -43,30 +43,30 @@
 
 <div class="offcanvas offcanvas-end text-bg-dark" id="demo">
   <div class="offcanvas-header">
-    <h1 class="offcanvas-title">Definições</h1>
+    <h1 class="offcanvas-title">OP 2</h1>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
   </div>
 
 	<div class="d-grid gap-2  col-11 mx-auto">
-  	<button class="btn btn-secondary" type="button">Calculadora</button>
-  	<button class="btn btn-secondary" type="button">Recibos de Compras</button>
-  	<button class="btn btn-secondary" type="button">Sobre</button>
-  	<button class="btn btn-secondary" type="button">Definições</button>
+  	<button class="btn btn-secondary" type="button">Op01</button>
+  	<button class="btn btn-secondary" type="button">Op02</button>
+  	<button class="btn btn-secondary" type="button">Op03</button>
+  	<button class="btn btn-secondary" type="button">Op04</button>
 	</div>
 
 </div>
 
 <div class="offcanvas offcanvas-start text-bg-dark" id="demo2">
   <div class="offcanvas-header">
-    <h1 class="offcanvas-title">Categorias de Videos</h1>
+    <h1 class="offcanvas-title">OP 01</h1>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
   </div>
 
   <div class="d-grid gap-2  col-11 mx-auto">
-    <button class="btn btn-secondary" type="button">Tipos de Videos 1</button>
-    <button class="btn btn-secondary" type="button">Tipos de Vodeps 2</button>
-    <button class="btn btn-secondary" type="button">Tipos de Videos 3</button>
-    <button class="btn btn-secondary" type="button">Tipos de Videos 4</button>
+    <button class="btn btn-secondary" type="button">Op01</button>
+    <button class="btn btn-secondary" type="button">Op02</button>
+    <button class="btn btn-secondary" type="button">Op03</button>
+    <button class="btn btn-secondary" type="button">Op04</button>
   </div>
 
 </div>
@@ -78,14 +78,9 @@
 
   <div class="row">
   
-    {% for i in path_cache %} 
-
-    <div class="col-md-6">
-      <img src="/static/cache/{{i}}" class="mx-auto d-block" style="width:100%"> 
-      <br>
-    </div>
-
-    {%endfor%} 
+	<h1>Template para aplicativos em Flask</h1>
+	<p>Desenvolvido por Leonardo Sousa</p>
+	<p>Codname: Visto-Preto</p>
 
 
   </div>
